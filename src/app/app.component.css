@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    color: aquamarine;
+    text-align: center;
+    margin: 25px;
+}
+
+.container {
+    text-align: center;
+}
+
+.box {
+    width: 600px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+
+.tarefas {
+    margin: 7.5px;
+}
+
+.btnAdicionar {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btnRemover {
+    padding: 3px;
+    border-radius: 5px;
+    margin: 7.5px;
+}

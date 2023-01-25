@@ -1,0 +1,16 @@
+<link rel="stylesheet" type="text/css" href="./app.component.css" />
+
+<div class="titulo">
+    <h1>{{ title }}</h1>
+</div>
+
+<div class="container">
+    <input type="text" class="box" placeholder="Digite sua tarefa" #tarefa />
+    
+    <ul *ngFor="let tarefa of listaTarefas">
+        <li>{{tarefa.name}}<button class="btnRemover" (click)="removerTarefa(tarefa.id)">Remover</button></li>
+    </ul>
+
+    <br>
+    <button class="btnAdicionar" (click)="adicionarTarefa(tarefa.value)">Adicionar a lista</button>
+</div>
